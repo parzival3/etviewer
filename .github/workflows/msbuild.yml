@@ -16,7 +16,7 @@ env:
   # https://docs.github.com/actions/learn-github-actions/managing-complex-workflows#using-a-build-matrix
   BUILD_CONFIGURATION: Release
   PLATFORM: x64
-  ETVIEWER: bin\${{BUILD_CONFIGURATION}}\${{PLATFORM}}\ETViewer.exe
+  ETVIEWER: bin\\$BUILD_CONFIGURATION\\$PLATFORM\\ETViewer.exe
   VERSION: "0.0"
   
 
